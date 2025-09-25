@@ -27,7 +27,7 @@ public class MathApp {
         System.out.println("The area of the circle is:" + area);
 
         //square root
-        double num = 5.0;
+        double num = 25.0;
         double square_root = Math.sqrt(num);
         System.out.println("The square root of" + " " + num + " " + "is" + " " +  square_root);
 
@@ -36,7 +36,7 @@ public class MathApp {
         int y1 = 10;
         int x2 = 85;
         int y2 = 50;
-        double distance = Math.sqrt( (x2-x1)^2 + (y2-y1)^2 );
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
         System.out.println("The distance between the two points is:" + " " + distance);
 
